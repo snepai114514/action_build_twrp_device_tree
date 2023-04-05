@@ -31,7 +31,7 @@ jobs:
       
     - name: Start build
       run: |
-        python3 -m twrpdtgen -o dt/ boot-verified.img
+        python3 -m twrpdtgen -o dt/ boot-vivoy67.img
     - name: ZIP device tree
       run: |
         zip -r DeviceTree.zip ./dt
